@@ -41,10 +41,10 @@ Este projeto requer as seguintes bibliotecas Python:
 
 
 ## Usando uv
-uv add git+[https://github.com/victoralmeida428/smbcontrol]
+uv add 'git+https://github.com/victoralmeida428/smbcontrol'
 
 ## Usando pip
-pip install git+[https://github.com/victoralmeida428/smbcontrol]
+pip install 'git+https://github.com/victoralmeida428/smbcontrol'
 
 
 # Guia Rápido (Exemplo de Uso)
