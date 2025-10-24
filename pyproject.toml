@@ -5,12 +5,27 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "smb-control"
 version = "0.1.0"
-description = "Add your description here"
+authors = [
+  { name="Victor Gomes", email="victor.gomes.almeida.vg@gmail.com" },
+]
+description = "Uma biblioteca Python para facilitar a comunicação com o smbprotocol."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "smbprotocol>=1.15.0",
 ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/seu-usuario/pycmbprotocol"
+
 
 [tool.setuptools.packages.find]
 where = ["src"]
