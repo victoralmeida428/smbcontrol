@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Uma biblioteca Python para facilitar a comunicação com o smbprotocol."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "pandas>=2.3.3",
     "smbprotocol>=1.15.0",
